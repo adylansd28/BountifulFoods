@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!-- Meta Data -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bountiful Foods provides fresh and healthy food options, including organic, made to order, fruit drinks and fruit bags, to the local population and to tourists visiting the coastal areas.">
+    <title>Bountiful Foods | Fresh Page</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/icons/favicon.ico">
+
+    <!-- CSS | Style Sheets Links -->
+    <link href="styles/normalize.css" type="text/css" rel="stylesheet">
+    <link class="style" href="" type="text/css" rel="stylesheet">
+
+    <!-- CSS | Fonts: Arvo (Titles) Lato(Content)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Lato&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- Header -->    
+    <header>
+
+        <!-- Social Media Links & Contact Information -->
+        <header>
+
+            <!-- Social Media Links & Contact Information -->
+            <div class="header-div-social-media">
+    
+                <ul class="header-ul-social-media">
+    
+                    <li class="li-h1"><h1>Bountiful Foods</h1></li>
+                    <li class="header-ul-social-media-p"><p>Contact us: <b>1800-227-227 | contact@bfoods.com</b></p></li>
+                    <li class="header-ul-social-media-li"><a href="https://www.facebook.com/"><img src="images/icons/icon-facebook.webp" alt="Facebook Icon"></a></li>
+                    <li class="header-ul-social-media-li"><a href="https://www.instagram.com/"><img src="images/icons/icon-instagram.webp" alt="Instagram Icon"></a></li>
+                    <li class="header-ul-social-media-li"><a href="https://www.twitter.com/"><img src="images/icons/icon-twitter.webp" alt="Twitter Icon"></a></li>
+    
+                </ul>
+    
+            </div>
+    
+            <div>
+    
+                
+                <!-- Navigation -->
+                <nav>
+    
+                    <ul class="nav-ul">
+                        
+                        <!-- Bountiful Foods Logo Header -->
+                        <li><img class="logo-bf" src="images/placeholder.webp" data-src="images/logo-bf-inverted.webp" alt="Bountiful Foods Logo"></li>
+    
+                        <button id="hamburger-btn"><span>&#9776;</span><span>X</span></button>
+    
+                        <!-- Navbar -->
+                        <ul id="primary-nav" class="nav-ul-navbar">
+                        
+                            <li><a class="inactive-link-a" href="index.html">Home</a></li>
+                            <li class="active-link-li"><a href="fresh.html" class="active-link-a">Fresh</a></li>
+                            <li><a href="aboutus.html" class="inactive-link-a">About Us</a></li>
+    
+                        </ul>
+    
+                    </ul>
+    
+                </nav>
+    
+            </div>
+    
+        </header>
+
+    <main class="fresh-main">
+
+        <h2 class="fresh-h2">Order Your Own Fruit Juice MIX!</h2>
+
+        <!-- Form to Order a new Fruit Mix -->
+        <form>
+
+            <h3 class="fresh-form-h3">My Order</h3>
+
+            <section class="form-section-name">
+
+                <label for="name" class="label-name">Name: </label>
+                <input type="text" id="name" name="name" placeholder="My Name">
+
+            </section>
+
+            <section class="form-section-email">
+
+                <label for="emial" class="label-email">Email: </label>
+                <input type="email" id="email" name="email" placeholder="my@email" required>
+
+            </section>
+
+            <section class="form-section-phone">
+
+                <label for="phone" class="label-phone">Phone:</label>
+                <input type="number" id="phone" name="phone" size="10" placeholder="0123456789" required>
+
+            </section>
+
+            <fieldset class="fieldset">
+
+                <legend id="fruits-options">Fruits Options</legend>
+                <p class="select1-p"></p>
+                <p class="select2-p"></p>
+                <p class="select3-p"></p>
+
+            </fieldset>
+
+            <label for="special-instructions" class="label-sp-in">Special Instructions:</label>
+            <textarea id="special-instructions" name="special-instructions" rows="5" cols="31" placeholder="My special instructions..."></textarea>
+
+            <button type="button" name="order" id="order">Order!</button>
+
+        </form>
+
+        <div id="div-current-order" class="hidden">
+
+            <h3>Current Order</h3>
+
+            <div class="div-current-order-data">
+                
+                <p>Name: <span class="name-order"></span></p>
+                <p>Email: <span class="email-order"></span></p>
+                <p>Phone: <span class="phone-order"></span></p>
+                <p>Date: <span class="date-order"></span></p>
+
+            </div>
+
+            <div>
+
+                <p>Selected Fruits</p>
+                <p>Fruit 1: <span class="selected-fruit1"></span></p>
+                <p>Fruit 2: <span class="selected-fruit2"></span></p>
+                <p>Fruit 3: <span class="selected-fruit3"></span></p>
+                <p>Special Instructions: <span class="show-sp-in"></span></p>
+            </div>
+
+            <div class="div-current-order-component">
+                
+                <p>Total Carbohydrates: <span class="carbohydrates"></span></p>
+                <p>Total Proteins: <span class="proteins"></span></p>
+                <p>Total Fat: <span class="fat"></span></p>
+                <p>Total Sugar: <span class="sugar"></span></p>
+                <p>Total Calories: <span class="calories"></span></p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <!-- Bountiful Foods Logo Footer -->
+        <img class="logo-bf-footer" src="images/placeholder.webp" data-src="images/logo-bf-inverted.webp" alt="Bountiful Foods Logo">
+
+        <!-- Footer Information -->
+        <div class="footer-div-info">
+
+            <p>Carlsbad California | 1800-227-227 | contact@bfoods.com</p>
+            <p>Dilan Salas | WDD230 | Section 12 | Sister Lori Hill</p>
+            <p>Bountiful Foods&#174;</p>
+
+        </div>
+
+        <!-- Contact Information & Social Media Links -->
+        <div class="footer-div-social-contact">
+
+            <ul class="footer-ul-social-contact">
+
+                <li class="footer-contact"><p>Contact us: <b>1800-227-227 | contact@bfoods.com</b></p></li>
+
+                <li>
+
+                    <ul class="footer-ul-social">
+
+                        <li><a href="https://www.facebook.com/"><img src="images/icons/icon-facebook.webp" alt="Facebook Icon"></a></li>
+                        <li><a href="https://www.instagram.com/"><img src="images/icons/icon-instagram.webp" alt="Instagram Icon"></a></li>
+                        <li><a href="https://www.twitter.com/"><img src="images/icons/icon-twitter.webp" alt="Twitter Icon"></a></li>
+                    
+                    <ul>
+
+                </li>
+            </ul>
+
+        </div>
+
+    </footer>
+
+    <!-- JavaScript | Scripts -->
+    <script src="scripts/viewport.js"></script>
+    <script src="scripts/hamburgerbtn.js"></script>
+    <script src="scripts/lazyloading.js" type="text/javascript"></script>   
+    <script type="module" src="scripts/fresh/populateform.js" type="text/javascript"></script>
+    <script type="module" src="scripts/fresh/order.js"></script>
+    
+</body>
+
+</html>

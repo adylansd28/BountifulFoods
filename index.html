@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!-- Meta Data -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bountiful Foods provides fresh and healthy food options, including organic, made to order, fruit drinks and fruit bags, to the local population and to tourists visiting the coastal areas.">
+    <title>Bountiful Foods | Home Page</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/icons/favicon.ico">
+
+    <!-- CSS | Style Sheets Links -->
+    <link href="styles/normalize.css" type="text/css" rel="stylesheet">
+    <link class="style" href="styles/small.css" type="text/css" rel="stylesheet">
+
+    <!-- CSS | Fonts: Arvo (Titles) Lato(Content)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Lato&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- Header -->    
+    <header>
+
+        <!-- Social Media Links & Contact Information -->
+        <div class="header-div-social-media">
+
+            <ul class="header-ul-social-media">
+
+                <li class="li-h1"><h1>Bountiful Foods</h1></li>
+                <li class="header-ul-social-media-p"><p>Contact us: <b>1800-227-227 | contact@bfoods.com</b></p></li>
+                <li class="header-ul-social-media-li"><a href="https://www.facebook.com/"><img src="images/icons/icon-facebook.webp" alt="Facebook Icon"></a></li>
+                <li class="header-ul-social-media-li"><a href="https://www.instagram.com/"><img src="images/icons/icon-instagram.webp" alt="Instagram Icon"></a></li>
+                <li class="header-ul-social-media-li"><a href="https://www.twitter.com/"><img src="images/icons/icon-twitter.webp" alt="Twitter Icon"></a></li>
+
+            </ul>
+
+        </div>
+
+        <div>
+
+            
+            <!-- Navigation -->
+            <nav>
+
+                <ul class="nav-ul">
+                    
+                    <!-- Bountiful Foods Logo Header -->
+                    <li><img class="logo-bf" src="images/placeholder.webp" data-src="images/logo-bf-inverted.webp" alt="Bountiful Foods Logo"></li>
+
+                    <button id="hamburger-btn"><span>&#9776;</span><span>X</span></button>
+
+                    <!-- Navbar -->
+                    <ul id="primary-nav" class="nav-ul-navbar">
+                    
+                        <li class="active-link-li"><a class="active-link-a" href="index.html">Home</a></li>
+                        <li><a href="fresh.html" class="inactive-link-a">Fresh</a></li>
+                        <li><a href="aboutus.html" class="inactive-link-a">About Us</a></li>
+
+                    </ul>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main class="homepage-main">
+
+        <h2 class="call-to-action"><a href="fresh.html" class="a-h2">Your own fruit drink mix!</a></h2>
+
+        <div id="storaged-orders" class="hidden">
+
+            <h3><a class="a-orders" href="fresh.html">Your Current Submitted Orders</a></h3>
+            <div id="inner-storaged-orders"> </div>
+
+        </div>
+
+        <!-- Fruits Pictrues and information -->
+        <div class="home-fruits-div">
+
+            <div class="div-fruit1"><a href="fresh.html"><img class="img-fruit" src="images/placeholder.webp"></a></div>
+            <div class="div-fruit2"><a href="fresh.html"><img class="img-fruit" src="images/placeholder.webp"></a></div>
+            <div class="div-fruit3"><a href="fresh.html"><img class="img-fruit" src="images/placeholder.webp"></a></div>
+            <div class="div-fruit4"><a href="fresh.html"><img class="img-fruit" src="images/placeholder.webp"></a></div>
+            <div class="div-fruit5"><a href="fresh.html"><img class="img-fruit" src="images/placeholder.webp"></a></div>
+            <div class="div-fruit6"><a href="fresh.html"><img class="img-fruit" src="images/placeholder.webp"></a></div>
+            <div class="div-fruit7"><a href="fresh.html"><img class="img-fruit" src="images/placeholder.webp"></a></div>
+            <div class="div-fruit8"><a href="fresh.html"><img class="img-fruit" src="images/placeholder.webp"></a></div>
+
+        </div>
+
+        <h2 class="h2-cities"><a href="fresh.html" class="a-h2">Discover more about Carlsbad and the Southern California Coast!!</a></h2>
+
+        <!-- Summary information about 4 areas in the southern California coast -->
+        <div class="home-cities-div">
+
+            <div class="div-sd"><a href="aboutus.html"><img class="img-sd" src="images/placeholder.webp" data-src="images/homepage/counties/san-diego.webp"  alt="San Diego County"></a></div>
+            <div class="div-ven"><a href="aboutus.html"><img class="img-ven" src="images/placeholder.webp" data-src="images/homepage/counties/ventura.webp" alt="Ventura County"></a></div>
+            <div class="div-la"><a href="aboutus.html"><img class="img-la" src="images/placeholder.webp" data-src="images/homepage/counties/los-angeles.webp" alt="Los Angeles County"></a></div>
+            <div class="div-car"><a href="aboutus.html"><img class="img-car" src="images/placeholder.webp" data-src="images/homepage/counties/carlsbad.webp" alt="Santa Barbara County"></a></div>
+            
+        </div>
+
+        <!-- Weather -->
+        <div class="major-weather-div">
+
+            <!-- Carlsbad Weather -->
+            <div id="div-weather" class="regulated">
+
+                <!-- Current Weather -->
+                <h3> Carlsbad Current Weather</h3>
+
+                <div class="div-current-weather">
+
+                    <p><b>Temperature:</b> <span class="current-temperature"></span>F°     <b>Humidity:</b> <span class="current-humidity"></span>%</p>
+
+                    <figure class="current-weather-figure">
+
+                        <img class="current-condition" src="" alt="">
+                        <figcaption class="current-caption"></figcaption>
+
+                    </figure>
+
+                </div>
+                
+                <!-- Forecast Weather -->
+                <div class="div-forecast">
+
+                    <h3 class="forecast-title"> Forecast next 3 days</h3>
+
+                    <!-- 1 Day Forecast -->
+                    <div class="forecast-day1">
+
+                        <p><b>Temperature:</b> <span class="day1-temperature"></span>°F</p>
+                        <p><b>Humidity:</b> <span class="day1-humidity"></span>%</p>
+
+                        <figure>
+
+                            <img class="day1-condition" src="" alt="">
+                            <figcaption class="day1-caption"></figcaption>
+
+                        </figure>
+
+                    </div>
+
+                    <!-- 2 Day Forecast -->
+                    <div class="forecast-day2">
+
+                        <p><b>Temperature:</b> <span class="day2-temperature"></span>°F</p>
+                        <p><b>Humidity:</b> <span class="day2-humidity"></span>%</p>
+
+                        <figure>
+
+                            <img class="day2-condition" src="" alt="">
+                            <figcaption class="day2-caption"></figcaption>
+
+                        </figure>
+                        
+                    </div>
+
+                    <!-- 3 Day Forecast -->
+                    <div class="forecast-day3">
+
+                        <p><b>Temperature:</b> <span class="day3-temperature"></span>°F</p>
+                        <p><b>Humidity:</b> <span class="day3-humidity"></span>%</p>
+
+                        <figure>
+
+                            <img class="day3-condition" src="" alt="">
+                            <figcaption class="day3-caption"></figcaption>
+
+                        </figure>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <!-- Bountiful Foods Logo Footer -->
+        <img class="logo-bf-footer" src="images/placeholder.webp" data-src="images/logo-bf-inverted.webp" alt="Bountiful Foods Logo">
+
+        <!-- Footer Information -->
+        <div class="footer-div-info">
+
+            <p>Carlsbad California | 1800-227-227 | contact@bfoods.com</p>
+            <p>Dilan Salas | WDD230 | Section 12 | Sister Lori Hill</p>
+            <p>Bountiful Foods&#174;</p>
+
+        </div>
+
+        <!-- Contact Information & Social Media Links -->
+        <div class="footer-div-social-contact">
+
+            <ul class="footer-ul-social-contact">
+
+                <li class="footer-contact"><p>Contact us: <b>1800-227-227 | contact@bfoods.com</b></p></li>
+
+                <li>
+
+                    <ul class="footer-ul-social">
+
+                        <li><a href="https://www.facebook.com/"><img src="images/icons/icon-facebook.webp" alt="Facebook Icon"></a></li>
+                        <li><a href="https://www.instagram.com/"><img src="images/icons/icon-instagram.webp" alt="Instagram Icon"></a></li>
+                        <li><a href="https://www.twitter.com/"><img src="images/icons/icon-twitter.webp" alt="Twitter Icon"></a></li>
+                    
+                    <ul>
+
+                </li>
+            </ul>
+
+        </div>
+
+    </footer>
+
+    <!-- JavaScript | Scripts -->
+    <script src="scripts/viewport.js"></script>
+    <script src="scripts/hamburgerbtn.js"></script>
+    <script src="scripts/homepage/submittedorder.js"></script>
+    <script src="scripts/homepage/weather.js"></script>
+    <script type="module" src="scripts/homepage/showimg.js"></script>
+    <script src="scripts/lazyloading.js" type="text/javascript" defer></script>
+    
+</body>
+
+</html>
